@@ -1,0 +1,7 @@
+Random Generate otp Method In java
+
+public static String generateOTP() {
+		Random random = new Random();
+		String otp = 1111 + random.nextInt(8888) + "";
+		return otp;
+	}
